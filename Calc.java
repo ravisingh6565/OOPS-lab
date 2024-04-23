@@ -1,7 +1,7 @@
 class Sum{
     int a=0,b=0;      //instence variables
     Sum (int aa , int b){
-        this.aa= a;
+        this.a= aa;
         this.b = b;
     }
     void getSum(){
