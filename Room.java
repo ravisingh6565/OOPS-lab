@@ -6,7 +6,6 @@ public class Room {
 
    
 
-    // Setter method to set data
     public void setData(int roomNo, String roomType, double roomArea, boolean acMachine) {
         this.roomNo = roomNo;
         this.roomType = roomType;
@@ -14,7 +13,6 @@ public class Room {
         this.acMachine = acMachine;
     }
 
-    // Display data method
     public void displayData() {
         System.out.println("Room Number: " + roomNo);
         System.out.println("Room Type: " + roomType);
@@ -23,13 +21,10 @@ public class Room {
     }
 
     public static void main(String[] args) {
-        // Creating an instance of Room
         Room room = new Room();
 
-        // Setting data using setData method
         room.setData(101, "Standard", 25.5, true);
 
-        // Displaying data using displayData method
         room.displayData();
     }
 }
