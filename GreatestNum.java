@@ -13,7 +13,7 @@ public class GreatestNum {
      
      if(arr[0]>arr[1]){
         if(arr[0]>arr[2]){
-            System.out.println(arr[0]+" is greater ");
+            System.out.println(arr[0]+" is greaterr ");
         }else{
             System.out.println(arr[2]+" is greater ");
         }
